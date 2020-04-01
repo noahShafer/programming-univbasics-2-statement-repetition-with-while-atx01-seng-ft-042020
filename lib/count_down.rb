@@ -2,7 +2,7 @@
 
 counter = 10
 while counter != 0 do
-  counter != 0  (puts counter) : ("Happy New Year!")
+  puts counter if counter != 0
   counter -= 1
-  
+  puts "Happy New Year!" if counter == 0
 end
